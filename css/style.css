@@ -1,0 +1,854 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header section */
+#home{
+    width:100%;
+    height:100vh;
+    background-image: url(../img/WhatsApp\ Image\ 2023-07-06\ at\ 1.44.00\ AM.jpeg);
+    background-size:cover;
+    background-position:center;
+}
+#home .layer{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.8);
+}
+h1{
+    font-size: 77px;
+    color: #FF305B;
+}
+
+.navbar{
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.logo h2{
+    padding:16px 17px 0px 0px ;
+    color: #FF305B;
+    font-size: 27px;
+    font-weight: 600;
+    width:40%;
+}
+.links{
+    width:60%; 
+}
+.links ul{
+    padding:18px 39px 0px 0px;
+    list-style:none;
+    display: flex; 
+}
+.links ul li a{
+   text-decoration: none;
+   color: aliceblue;
+   padding-left:35px;
+   font-size:18px;
+   font-weight: 400;
+}
+.links ul li a:hover{
+color: #FF305B;
+}
+
+.home-content{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ color:aliceblue;
+ align-items: center;
+ justify-content: center;
+}
+.home-content h3{
+    font-size:27px;
+    font-weight: 600;
+}
+.home-content p
+{
+   font-size:29px;
+   font-weight: 300;
+   position: relative;
+}
+.home-content p::after{
+    content:"";
+    animation: prof 10s infinite;
+}
+@media screen and (max-width: 480px) {
+   .logo h2 {
+   width:100%;
+   background-color: #F1F1F1;
+   }
+   .links {
+
+   }
+
+ }
+
+@keyframes prof{
+
+0%{
+    content:"|";
+ }
+1%{
+    content:"P|";
+ }
+2%{
+    content:"Pr|";
+ }
+3%{
+    content:"Pro|";
+ } 
+4%{
+    content:"Prof|";
+ }
+5%{
+    content:"Profe|";
+ }
+6%{
+    content:"Profes|";
+ }
+7%{
+    content:"Profess|";
+ }
+8%{
+    content:"Professi|";
+ } 
+ 9%{
+    content:"Professio|";
+ }
+10%{
+    content:"Profession|";
+ } 
+ 11%{
+    content:"Professiona|";
+ } 
+ 12%{
+    content:"Professional|";
+ } 
+ 13%{
+    content:"Professional |";
+ } 
+ 14%{
+    content:"Professional W|";
+ } 
+ 15%{
+    content:"Professional We|";
+ } 
+ 16%{
+    content:"Professional Web|";
+ } 
+ 17%{
+    content:"Professional Web |";
+ } 
+ 18%{
+    content:"Professional Web D|";
+ } 
+ 19%{
+    content:"Professional Web De|";
+ } 
+ 20%{
+    content:"Professional Web Des|";
+ } 
+ 21%{
+    content:"Professional Web Desi|";
+ } 
+ 22%{
+    content:"Professional Web Desig|";
+ } 
+ 23%{
+    content:"Professional Web Design|";
+ } 
+ 24%{
+    content:"Professional Web Designe|";
+ } 
+ 25%{
+    content:"Professional Web Designer|";
+ } 
+ 26%{
+    content:"Professional Web Designer|";
+ } 
+ 27%{
+    content:"Professional Web Designe|";
+ } 
+ 28%{
+    content:"Professional Web Design|";
+ } 
+ 29%{
+    content:"Professional Web Desig|";
+ } 
+ 30%{
+    content:"Professional Web Desi|";
+ } 
+ 31%{
+    content:"Professional Web Des|";
+ } 
+ 32%{
+    content:"Professional Web De|";
+ } 
+ 33%{
+    content:"Professional Web D|";
+ }
+  34%{
+    content:"Professional Web |";
+ } 
+ 35%{
+    content:"Professional Web|";
+ } 
+ 36%{
+    content:"Professional We|";
+ } 
+ 37%{
+    content:"Professional W|";
+ } 
+ 38%{
+    content:"Professional |";
+ } 
+ 39%{
+    content:"Professional|";
+ } 
+ 40%{
+    content:"Professiona|";
+ } 
+ 41%{
+    content:"Profession|";
+ } 
+ 42%{
+    content:"Professio|";
+ } 
+ 43%{
+    content:"Professi|";
+ } 
+ 44%{
+    content:"Profess|";
+ } 
+ 45%{
+    content:"Profes|";
+ } 
+ 46%{
+    content:"Profe|";
+ } 
+ 47%{
+    content:"Prof|";
+ } 
+ 48%{
+    content:"Pro|";
+ } 
+ 49%{
+    content:"Pr|";
+ } 
+ 50%{
+    content:"P|";
+ }
+ 51%{
+    content:"|";
+ }
+ 52%{
+    content:"P|";
+ }
+ 53%{
+    content:"Pr|";
+ }
+ 54%{
+    content:"Pro|";
+ } 
+ 55%{
+    content:"Prof|";
+ }
+ 56%{
+    content:"Profe|";
+ }
+ 57%{
+    content:"Profes|";
+ }
+ 58%{
+    content:"Profess|";
+ }
+ 59%{
+    content:"Professi|";
+ } 
+ 60%{
+    content:"Professio|";
+ }
+ 61%{
+    content:"Profession|";
+ } 
+ 62%{
+    content:"Professiona|";
+ } 
+ 63%{
+    content:"Professional|";
+ } 
+64%{
+    content:"Professional |";
+ } 
+ 65%{
+    content:"Professional W|";
+ } 
+ 66%{
+    content:"Professional We|";
+ } 
+ 67%{
+    content:"Professional Web|";
+ } 
+ 68%{
+    content:"Professional Web |";
+ } 
+ 69%{
+    content:"Professional Web D|";
+ } 
+ 70%{
+    content:"Professional Web De|";
+ } 
+ 71%{
+    content:"Professional Web Des|";
+ } 
+ 72%{
+    content:"Professional Web Desi|";
+ } 
+ 73%{
+    content:"Professional Web Desig|";
+ } 
+ 74%{
+    content:"Professional Web Design|";
+ } 
+ 75%{
+    content:"Professional Web Designe|";
+ } 
+ 76%{
+    content:"Professional Web Designer|";
+ } 
+ 77%{
+    content:"Professional Web Designer|";
+ } 
+ 78%{
+    content:"Professional Web Designe|";
+ } 
+ 79%{
+    content:"Professional Web Design|";
+ } 
+ 80%{
+    content:"Professional Web Desig|";
+ } 
+ 81%{
+    content:"Professional Web Desi|";
+ } 
+ 82%{
+    content:"Professional Web Des|";
+ } 
+ 83%{
+    content:"Professional Web De|";
+ } 
+ 84%{
+    content:"Professional Web D|";
+ }
+ 85%{
+    content:"Professional Web |";
+ } 
+ 86%{
+    content:"Professional Web|";
+ } 
+ 87%{
+    content:"Professional We|";
+ } 
+ 88%{
+    content:"Professional W|";
+ } 
+ 89%{
+    content:"Professional |";
+ } 
+ 90%{
+    content:"Professional|";
+ } 
+ 91%{
+    content:"Professiona|";
+ } 
+ 92%{
+    content:"Profession|";
+ } 
+ 93%{
+    content:"Professio|";
+ } 
+ 94%{
+    content:"Professi|";
+ } 
+ 95%{
+    content:"Profess|";
+ } 
+ 96%{
+    content:"Profes|";
+ } 
+ 97%{
+    content:"Profe|";
+ } 
+ 98%{
+    content:"Prof|";
+ } 
+ 99%{
+    content:"Pro|";
+ } 
+ 100%{
+    content:"Pr|";
+ } 
+ 101%{
+   content:"P|";
+} 
+102%{
+   content:"|";
+} 
+}
+
+/* about section */
+#about{
+    margin:70px 0px 40px 0px;
+    height:80vh;
+}
+.about-section{
+    width:95%;
+    height:100vh;
+    margin:auto;
+    display: flex;
+}
+.about-image{
+    position: relative;
+    width:40%;
+    margin-top:40px;
+    margin-left:50px;
+}
+.brdr
+{
+ width:68%;
+ height:65%;
+ border: 10px solid #555555;
+ border-radius:5px;
+}
+.img-layer{
+    position: absolute;
+    top:33px;
+    left:33px;
+}
+.img-layer img{
+    width:100%;
+}
+.img-layer-container{
+    position: relative;
+    overflow: hidden;
+}
+.about-layer{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.9s;
+}
+.img-layer-container:hover .about-layer
+{
+ top:0;
+}
+ i{
+    padding:15px;
+    font-size: 20px;
+    color: #ffffff;
+}
+ i:hover{
+    color: #FF305B;
+}
+.about-caption{
+  width:60%;
+  margin-left:40px;
+  padding:30px;
+  margin-top:-100px;
+}
+.about-caption h2{
+    position: relative;
+    font-size:40px;
+    font-weight: 600;
+    margin-bottom:25px;
+    padding-left:10px;
+    text-align: left;
+}
+.about-caption h2::before{
+position:absolute;
+content:"I";
+color: #FF305B;
+left:-10px;
+}
+.about-caption p{
+     color: #7E7E7E;
+     font-size:20px;
+     
+}
+.dash{
+    border: #7E7E7E dashed 1px;
+    margin:20px ;
+}
+.qualifications{
+    display: flex;
+}
+.qualifications .test{
+   padding-right:40px;
+} 
+.test .difintion{
+    display: flex;
+}
+.test .difintion h3{
+    font-size:20px;
+    font-weight: 500;
+}
+.btn button{
+    margin:40px 10px 0px 0px;
+    padding-left:15px;
+    background-color: #FF305B;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    color: #ffffff;
+
+}
+.btn button:hover{
+    background-color:red;
+}
+/* services section */
+.service-section,
+.portfolio-section,
+.Feedback-section,
+.blog-section,
+.contact-section
+{
+    padding:10px 0px 50px 0px;
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+#services,#extra{
+    background-color:#F1F1F1;
+}
+ h2
+{
+    font-size: 40px;
+    font-weight:900;
+    padding:50px 0px 16px 0px;
+    text-align: center;
+}
+
+.line
+{
+position: relative;
+background: #FF305B;
+width:160px;
+height:1px;
+margin:auto;
+}
+.line::after
+{
+  position: absolute;
+  content: '';
+  background: #FF305B;
+  top:-5px;
+  transform: translateX(-50%);
+  width:100px;
+  height:1px;
+  margin:auto;
+}
+.line::before
+{
+  position: absolute;
+  content: '';
+  background: #FF305B;
+  top:5px;
+  transform: translateX(-50%);
+  width:100px;
+  height:1px;
+  margin:auto;
+}
+.paragraph{
+    width:25%;
+    padding:10px;
+}
+.service-content{
+    width:100%;
+    display: flex;
+    padding:30px 0px 10px 0px;
+}
+.paragraph:hover
+{
+   background-color:white;
+}
+.paragraph h3
+{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+.paragraph p{
+font-size: 20px;
+color: #7E7E7E;
+padding-top:10px;   
+}
+.paragraph i{
+    color: #FF305B;
+    padding-bottom:12px;
+}
+/* Portfolio  section  */
+.portfolioLinks ul{
+    margin:40px;
+    list-style:none;
+    display: flex; 
+    justify-content: center;
+}
+.portfolioLinks ul li a{
+   text-decoration: none;
+   color:black;
+   padding:10px; 
+   font-weight:400;
+   font-size:17px;
+}
+.portfolioLinks ul li a:hover{
+color: #FF305B;
+}
+.portfolioImage{
+width:100%;
+} 
+.portfolioImage .test1{
+    display: flex;
+    
+}
+ .test-image{
+    width:33.3%;
+    position: relative;
+    overflow: hidden;
+    margin:15px;
+}
+.test1 .test-image img
+{
+
+width:100%;
+}
+.portfolio-layer
+{
+position: absolute;
+display: flex;
+top:0;
+width:100%;
+height:100%;
+padding:15px;
+background-color: rgba(0, 0, 0, 0.6);
+opacity:0;
+transition: all 0.8s;
+}
+.test-image:hover .portfolio-layer
+{
+    opacity:1;
+}
+
+/* extra section */
+.extra-section{
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   margin: auto;
+   text-align: center;
+   padding:50px;
+}
+.extra-content{
+  width:22.22%;  
+}
+.extra-content i{
+ color: #FF305B;
+ padding:30px;
+  font-size:37px;
+}
+.extra-content h3{
+    font-size:30px;
+    font-weight:900;
+}
+.extra-content h4{
+    font-size:17px;
+    color: #7E7E7E;
+    padding:10px;
+}
+/* Feedback  section */
+.Feedback-container{
+    position: relative;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    text-align: left;
+    overflow: hidden;
+}
+.feedback-content{
+    display: flex;
+    background-color:#F1F1F1;
+    padding:50px;
+    border-radius:5px;
+}
+.feedback-img{
+    width:20%;
+    z-index: 333333;
+}
+.feedback-img img{
+ width:70%;
+ border-radius:50%;
+}
+.feedback-caption{
+    width:80%;
+}
+.color{
+    /* display: none; */
+    position: absolute;
+    width:280px;
+    height:280px;
+    background-color: #FF305B;
+    top:-139px;
+    left:-139px;
+    transform: rotate(45deg);
+}
+
+.feedback-caption h3
+{
+    font-size:35px;
+    font-weight:500;
+}
+.feedback-caption span{
+    display: flex;
+    margin-left:-15px;
+}
+.feedback-caption h4{
+    font-size:20px;
+    font-weight: 400;
+    color: #7E7E7E;
+    margin-top:10px;
+}
+
+.feedback-caption p
+{
+    font-size: 18px;
+    font-style: italic;
+    color: #7E7E7E;
+    padding:10px 0px;
+}
+.feedback-caption .icons i{
+    padding:10px 0px;
+}
+/* blog  section */
+#blog{
+background-color:#F1F1F1;    
+}
+.blog-container
+{
+display: flex;
+width:90%;
+margin:auto;
+margin-top:15px;
+}
+.blog-content{
+    width:33.33%;
+    margin:20px;
+    text-align: left;
+    background-color: #ffffff;
+    padding-bottom:20px;
+}
+.blog-img img,iframe{
+    width:100%;
+}
+
+.blog-caption p
+{
+    font-size: 20px;
+    color: #7E7E7E;
+    padding: 10px 10px 20px;
+}
+.blog-caption h4{
+    text-decoration: none;
+    color: black;
+    padding:0px 10px;
+    font-size:23px;
+}
+.blog-caption h4:hover{
+ color:#FF305B;
+}
+.blog-caption i{
+    color: black;
+    margin-left: -18px;
+}
+.blog-caption a{
+    color: black;
+    text-decoration: none;
+    margin-left:10px;
+    font-size:18px;
+}
+.blog-caption i:hover,.blog-caption a:hover{
+ color: #FF305B;
+}
+/* Contact  section */
+.contact-section{
+    margin:50px 0px;
+    width:60%;
+    margin:auto;
+}
+.input1{
+    width:48.2%;
+    margin-top:50px;
+
+}
+input, textarea{
+    width:97%;
+    padding:12px;
+    margin: auto;
+    border-radius:5px;
+    border:1px gray solid;  
+    margin-top:15px;
+}
+
+.send{
+    background-color: #FF305B;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:100;
+    color: #ffffff;
+    display: block;
+    padding:10px 20px;
+    margin:10px 10px;
+}
+.send:hover{
+    background-color:red;
+}
+/* footer  section */
+#footer{
+    background-color:#333333;
+}
+.footer-container{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    padding:50px 0px;
+}
+.footer-icon i{
+padding:15px 10px 17px 10px;
+} 
+.footer-container p{
+    color: white;
+    padding: 5px 0px 30px 0px;
+    font-size:18px;
+}
+.footer-container p span{
+    color: #FF305B;
+}
+.footer-container p span:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
